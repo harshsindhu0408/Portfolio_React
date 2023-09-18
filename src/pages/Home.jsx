@@ -4,6 +4,8 @@ import ProjectsGrid from '../components/projects/ProjectsGrid';
 import { ProjectsProvider } from '../context/ProjectsContext';
 import Button from '../components/reusable/Button';
 import About from './AboutMe';
+import Technologies from '../components/Technologies';
+
 
 const Home = () => {
 	return (
@@ -27,6 +29,13 @@ const Home = () => {
 				</Link>
 
 				
+			</div>
+			
+			<div>
+				<p className="font-general-medium text-center mt-10 text-4xl font-general-semibold dark:text-primary-light text-ternary-dark">Technologies I am Familiar With</p>
+				<div className='mt-10'>
+					<Technologies/>
+				</div>
 			</div>
 
 			<p className="font-general-medium text-center mt-20 text-4xl font-general-semibold dark:text-primary-light text-ternary-dark">About Me</p>
