@@ -14,17 +14,17 @@ const socialLinks = [
 	{
 		id: 2,
 		icon: <SiLeetcode />,
-		url: 'https://leetcode.com/harshsindhu0402/',
-	},
-	{
-		id: 3,
-		icon: <SiGeeksforgeeks />,
-		url: 'https://auth.geeksforgeeks.org/user/harshsindhu0402',
+		url: 'https://leetcode.com/noob0408/',
 	},
 	{
 		id: 4,
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/harshsindhu0408/',
+	},
+	{
+		id: 3,
+		icon: <SiGeeksforgeeks />,
+		url: 'https://auth.geeksforgeeks.org/user/harshsindhu0402',
 	},
 ];
 

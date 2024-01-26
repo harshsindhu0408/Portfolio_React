@@ -2,6 +2,7 @@
 import StudyNotion1 from '../images/studynotion1.jpg';
 import FoodApp from '../images/food-app1.jpg';
 import Studio1 from '../images/studio1.jpg';
+import RescueConnectImage from '../images/ResourceConnect.jpg'
 
 export const projectsData = [
 	{
@@ -28,6 +29,13 @@ export const projectsData = [
 		title: 'Studio Website',
 		category: 'Web Application',
 		img: Studio1,
-		link: 'https://studio-henna-iota.vercel.app/',
+		link: 'https://www.sindhustudio.in/',
+	},
+	{
+		id: 4,
+		title: 'Rsource Connect',
+		category: 'Web Application',
+		img: RescueConnectImage,
+		link: 'https://hack-univ-rescue-connect-frontend.vercel.app/login',
 	},
 ];
